@@ -1,3 +1,5 @@
+.venv/
+.gradio/
 __pycache__/
 *.py[cod]
 *$py.class
@@ -8,4 +10,7 @@ __pycache__/
 thumbs.db
 .DS_Store
 .idea
+
+# Local Cursor workspace artifacts
+.cursor/
 

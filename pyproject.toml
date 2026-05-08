@@ -31,6 +31,8 @@ dependencies = [
   "triton>=2; (platform_machine=='x86_64' and sys_platform=='linux') or sys_platform=='linux2'",
 ]
 optional-dependencies.dev = [ "black", "flake8", "isort", "pytest", "scipy" ]
+optional-dependencies.ui = [ "gradio>=4" ]
+optional-dependencies.diar = [ "pyannote.audio>=3.1" ]
 urls = { Homepage = "https://github.com/openai/whisper" }
 scripts.whisper = "whisper.transcribe:cli"
 
